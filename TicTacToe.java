@@ -65,7 +65,7 @@ public class TicTacToe {
                 }
                 playBoard.displayBoard();
             }
-            playBoard.gameResult2();
+            playBoard.gameResult(true);
         }
 
     }

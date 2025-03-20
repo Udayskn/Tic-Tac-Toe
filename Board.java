@@ -74,7 +74,7 @@ public class Board {
             System.out.println("The Game ended as a draw");
         }
     }
-    public void gameResult2(){
+    public void gameResult(boolean is_comp){
         if (gameEnd() && winner == 1) {
             System.out.println("Congratulations!!!");
             System.out.println("You "+ " have won the game");
